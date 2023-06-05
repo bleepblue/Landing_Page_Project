@@ -1,0 +1,163 @@
+body {
+    margin: 0; 
+    
+}
+
+* {
+    font-family: Arial;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #1F2937;
+    
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 550px;
+    background-color: #1F2937;
+    gap: 20px;
+    
+}
+
+.hero-text {
+
+    width: 500px;
+    height: 300px;
+    
+}
+
+.hero-image {
+
+    width: 500px;
+    height: 300px;
+    background-color: lightgray;
+
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+.hero-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: left;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3882F6;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    color: #1F2937
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    
+    gap: 36px;
+}
+
+.info-object {
+    width: 110px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3886F6;
+    border-radius: 15px;
+}
+
+.info {
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.caption {
+    margin-left: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px 20px;
+}
+
+.quote p {
+    
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+span {
+    display: block;
+    margin: 10px 0 0 400px;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+.call-box {
+
+    background-color: #3882F6;
+
+}
+
+.footer {
+    background-color: #1F2937; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.footer p {
+    color: #E5E7EB;
+}
